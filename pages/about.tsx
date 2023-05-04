@@ -27,7 +27,7 @@ export default function service() {
       <meta property="twitter:title" content="Mayra Femia Hetrick Portfolio"/>
       <meta property="twitter:description" content="As a specialist in investment portfolios, Mayra Femia Hetrick (CRD#2022887) employs consistent and intelligent trading strategies to help build your investments. Learn more about her expertise in trading strategies for building wealth."/>
       <meta property="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/exodus-xperts.appspot.com/o/mayra2.jpg?alt=media&token=fc5eee5a-bb76-44b4-832f-ac20f42a2237"/>
-      <meta name="google-site-verification" content="x-NYq0j3JG3agkRALdEp7cnNhiCmEu2PS7koVm3dYWg" />
+      <meta name="google-site-verification" content="HRt_d3x3x6Sc-gD5FrNiFrX0-FciH5jG6wA2g6tV9sA" />
       <meta name="description" content="As a specialist in investment portfolios, Mayra Femia Hetrick (CRD#2022887) employs consistent and intelligent trading strategies to help build your investments. Learn more about her expertise in trading strategies for building wealth." />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Mayra Femia Hetrick Portfolio About</title>
