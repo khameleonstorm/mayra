@@ -75,7 +75,7 @@
 .left h1{
   font-size: 3rem;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -84,8 +84,8 @@
 }
 
 .left h2{
-  font-size: 1rem;
-  font-weight: 100;
+  font-size: 1.2rem;
+  font-weight: 200;
   line-height: 1.3;
 }
 
