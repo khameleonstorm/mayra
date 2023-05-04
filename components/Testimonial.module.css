@@ -1,0 +1,63 @@
+.ctn{
+  width: 100%;
+}
+
+.wrp{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #fff1ff;
+  border-radius: 50px;
+  margin-top: -30px;
+  padding: 50px 10px;
+  box-shadow: 0 0 20px rgba(235, 183, 255, 0.1);
+}
+
+.wrp h1{
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: -2px;
+  text-align: center;
+    color: #042254;
+}
+
+.wrp h2{
+  font-size: .9rem;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin-bottom: 3rem;
+    color: #042254;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.card p{
+  font-size: 1rem;
+  font-weight: 140;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+}
+
+.card h3{
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #042254;
+}
+
+@media screen and (max-width: 900px){
+  .wrp{
+    margin-top: -100px;
+  }
+}
