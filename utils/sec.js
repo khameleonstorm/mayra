@@ -1,28 +1,34 @@
 import estate from '/public/assets/real_estate.jpg'
 import gold from '/public/assets/gold.jpg'
 import agri from '/public/assets/agriculture.jpg'
+import btc from '/public/assets/bitcoin.jpg'
 
 export const sec1 = {
   title: 'REAL ESTATE',
-  desc: 'Investing in real estate involves purchasing properties with the goal of generating income or appreciation over time. Real estate can be a source of steady income through rental properties or lease agreements, and can also appreciate in value over time as demand increases. Additionally, real estate can provide diversification benefits to a portfolio as it is often not closely correlated with other asset classes. Finally, real estate can provide a stable foundation for a portfolio as it is often less volatile than other investments.',
-  color: '#BD0362',
+  desc: 'Real estate investment involves the purchase, ownership, management, rental or sale of land and/or any structures on it for the purpose of generating a return on investment. Real estate is a proven investment strategy for building long-term wealth, as it can provide a steady stream of income from rental properties or lease agreements. In addition, real estate is often less volatile than other investments, providing a stable foundation for a portfolio. Real estate can also appreciate in value over time as demand increases, which can provide capital gains when the property is sold. Furthermore, real estate can provide diversification benefits to a portfolio as it is often not closely correlated with other asset classes.',
   img: estate,
-  bg: '#042254'
+  bg: '#fff1ff'
 }
 
 export const sec2 = {
   title: 'GOLD',
-  desc: 'Investing in gold involves purchasing the physical metal or investing in gold-based financial products such as ETFs. Gold is often considered a hedge against inflation and a store of value during times of economic uncertainty. As a tangible asset, gold can provide diversification benefits to a portfolio and may also appreciate in value over time as demand increases. Additionally, gold can be a source of long-term wealth as it has historically retained its value over time.',
-  color: '#042254',
+  desc: 'Gold has been valued as a store of wealth and a form of currency for centuries. Investing in gold can provide a number of benefits to an investment portfolio. One of the primary benefits of investing in gold is its ability to act as a hedge against inflation. As inflation erodes the value of paper currency, gold often retains its value, making it a valuable asset for preserving purchasing power. Additionally, gold can provide diversification benefits to a portfolio, as it is often not closely correlated with other asset classes, such as stocks or bonds. Moreover, gold has been seen as a safe haven asset during times of economic uncertainty, providing stability and protection to investors.',
   img: gold,
-  bg: '#fff1ff',
+  bg: '#042254',
   reverse: true
 }
 
 export const sec3 = {
   title: 'AGRICULTURE',
-  desc: 'Investing in agriculture involves purchasing farmland, crops, or other agricultural assets with the goal of generating income or appreciation over time. Agriculture can provide sustainable income through crop yields or lease agreements, and can also appreciate in value over time as demand increases. Additionally, agriculture can provide diversification benefits to a portfolio as it is often not closely correlated with other asset classes. Finally, agriculture is a global industry with high demand and limited supply, providing opportunities for long-term growth and wealth creation.',
-  color: '#AC853C',
+  desc: 'Agriculture is the practice of cultivating land, raising animals and producing food, fiber, and other products. Investing in agriculture can provide a sustainable source of income through crop yields, lease agreements or livestock production. Furthermore, agriculture can provide long-term growth potential as global demand for food and other agricultural products continues to increase. Moreover, agriculture investments can provide diversification benefits to a portfolio, as it is often not closely correlated with other asset classes. Agricultural investments may also have a positive impact on the environment and society as a whole, by supporting sustainable farming practices and improving food security for communities around the world.',
   img: agri,
-  bg: '#042254'
+  bg: '#fff1ff'
+}
+
+export const sec4 = {
+  title: 'Stocks and Crypto Trading',
+  desc: 'Investing in financial assets can provide opportunities for growth and diversification. Stock trading involves buying and selling shares in publicly traded companies in order to generate returns from capital gains or dividends. The stock market can be volatile, but investing in a diversified portfolio of stocks can provide long-term growth potential. In addition to stocks, cryptocurrency trading solutions have emerged as a new way to invest in digital assets that are secured through cryptography. Cryptocurrency trading can provide opportunities for high returns, but it is also a highly volatile and risky investment. However, with the right knowledge and approach, investors can manage the risks associated with these assets and take advantage of their potential benefits. As such, it is important to have a solid understanding of the risks and opportunities involved in both stock and crypto trading in order to make informed investment decisions. With the help of a trusted broker or advisor, investors can navigate these markets and build a diversified portfolio that meets their investment objectives.',
+  img: btc,
+  bg: '#042254',
+  reverse: true
 }

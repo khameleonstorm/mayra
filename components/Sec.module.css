@@ -25,6 +25,7 @@
   letter-spacing: 8px;
   margin-bottom: 10px;
   position: relative;
+  text-transform: uppercase;
 }
 
 .right h2{

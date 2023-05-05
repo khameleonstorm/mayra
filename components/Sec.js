@@ -8,10 +8,9 @@ export default function Sec({data}) {
       <div className={s.left}>
           <Image src={data.img} alt={data.title} width={500}/>
           </div>
-          <div className={s.right} style={data.reverse? {color: "#0e0015"}: {}}>
+          <div className={s.right} style={!data.reverse? {color: "#0e0015"}: {}}>
             <h1>{data.title}</h1>
             <h2 style={data.reverse? {fontWeight: "300"}: {}}>{data.desc}</h2>
-            <button className='heroBtn' style={{background: data.color}}>Learn More</button>
           </div>
       </div>
     </div>

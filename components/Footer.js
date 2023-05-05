@@ -1,3 +1,5 @@
+import { FaTelegramPlane } from 'react-icons/fa'
+import { IoMdMail } from 'react-icons/io'
 import s from './Footer.module.css'
 
 export default function Footer() {
@@ -9,10 +11,12 @@ export default function Footer() {
            I also believe there is no shame in asking for help to deliver such change.
         </h1>
 
-        <div className={s.contact}>
+        <div className={s.contacts}>
           <h2>-CONTACTS-</h2>
-          <a href="https://t.me/MayraFemiaHetrick">Telegram</a>
-          <a href="mailto: help@mayrafemia.com">help@mayrafemia.com</a>
+          <div className={s.contact}>
+            <a href="https://t.me/MayraFemiaHetrick"><FaTelegramPlane /></a>
+            <a href="mailto: help@mayrafemia.com"><IoMdMail /></a>
+          </div>
         </div>
       </div>
     </div>

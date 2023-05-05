@@ -4,7 +4,7 @@ import ServicesHero from "@/components/ServicesHero";
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { inter } from "./index";
-import { sec1, sec2, sec3} from '../utils/sec'
+import { sec1, sec2, sec3, sec4} from '../utils/sec'
 import Sec from "@/components/Sec";
 
 
@@ -38,6 +38,7 @@ export default function service() {
     <main className={`${styles.main} ${inter.className}`}>
     <Nav />
     <ServicesHero />
+    <Sec data={sec4}/>
     <Sec data={sec1}/>
     <Sec data={sec2}/>
     <Sec data={sec3}/>
