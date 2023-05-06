@@ -9,24 +9,24 @@ export default function Process() {
       <div className={s.wrp}>
         <div className={s.heading}>
           <h1>MY PROCESSES</h1>
-          <h2>Over 22 years of my career, I have managed over $6.7 billion and provided investment advisory services to 800 clients. I give good degree of security on my clients investments, making sure that they never lose out on any deal.</h2>
+          <h2>Throughout my extensive 22-year career, I have successfully managed a portfolio exceeding $6.7 billion, offering investment advisory services to a diverse clientele of 800 individuals. One of my top priorities is ensuring the security of my clients' investments, diligently working to minimize any potential losses and maximize profitable opportunities. With my expertise and commitment to delivering exceptional results, rest assured that your investments are in capable hands.</h2>
         </div>
 
         <div className={s.cards}>
           <div className={s.card}>
             <FaBookReader />
             <h3>LEARN</h3>
-            <p>Framing the problem is crucial to the success of any project. I make sure I understand everything about my client, their risk appetite, preferred investment and wealth management duration, Previous inhibitors to wealth management and what is the problem we&apos;re trying to solve.</p>
+            <p>Understanding my clients is essential. I assess their risk tolerance, preferred investment duration, and past wealth management challenges to identify the core problem. This allows me to provide tailored solutions that address their unique needs and objectives.</p>
           </div>
           <div className={s.card}>
             <SiMarketo />
             <h3>STRATEGY</h3>
-            <p>Every wealth manager has to achieve a specific goal. After learning what my clients needs in the first phase aforementioned, I try to think of a strategy to actualize them. This phase is mostly done through Workshop with you, the client. I&apos;m a big believer of collaboration and co-creation.</p>
+            <p>Understanding my clients by engaging in collaborative workshops, we work together to co-create a tailored strategy that aligns with their aspirations. Through open communication and shared expertise, we ensure that the resulting plan is well-informed and customized to their specific needs, increasing the potential for success.</p>
           </div>
           <div className={s.card}>
             <IoShieldCheckmark />
             <h3>SUCCESS</h3>
-            <p>Guided by a Myriad of investment insights, I create multiple concepts to solve the problem we identified. However, only the real viable solution make it to you. I don’t present sketches or rough ideas, I present working solutions to creating and managing wealth.</p>
+            <p>I meticulously filter through these options to present you with only the most viable and practical solutions. Rather than presenting mere sketches or rough ideas, I provide fully developed and actionable strategies for creating and managing wealth. Rest assured, the solutions I present are designed to deliver tangible results and optimize your financial journey.</p>
           </div>
         </div>
       </div>

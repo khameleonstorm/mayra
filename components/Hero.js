@@ -8,7 +8,7 @@ export default function Hero() {
       <div className={s.wrp}>
         <div className={s.left}>
           <h1><span>Mayra </span> Femia Hetrick</h1>
-          <h2>I specialize in building up investment portfolios with intelligent and consistent trading strategies.</h2>
+          <h2>With expertise in constructing investment portfolios, I specialize in implementing intelligent and consistent trading strategies.</h2>
           <button className='heroBtn'>Contact Me!</button>
         </div>
         <div className={s.right}>
