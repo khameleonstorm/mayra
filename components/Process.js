@@ -9,7 +9,7 @@ export default function Process() {
       <div className={s.wrp}>
         <div className={s.heading}>
           <h1>MY PROCESSES</h1>
-          <h2>Throughout my extensive 22-year career, I have successfully managed a portfolio exceeding $6.7 billion, offering investment advisory services to a diverse clientele of 800 individuals. One of my top priorities is ensuring the security of my clients' investments, diligently working to minimize any potential losses and maximize profitable opportunities. With my expertise and commitment to delivering exceptional results, rest assured that your investments are in capable hands.</h2>
+          <h2>Throughout my extensive 22-year career, I have successfully managed a portfolio exceeding $6.7 billion, offering investment advisory services to a diverse clientele of 800 individuals. One of my top priorities is ensuring the security of my clients investments, diligently working to minimize any potential losses and maximize profitable opportunities. With my expertise and commitment to delivering exceptional results, rest assured that your investments are in capable hands.</h2>
         </div>
 
         <div className={s.cards}>
