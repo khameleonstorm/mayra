@@ -33,6 +33,8 @@ export default function Home() {
         <meta name="google-site-verification" content="HRt_d3x3x6Sc-gD5FrNiFrX0-FciH5jG6wA2g6tV9sA" />
         <meta name="description" content="As a specialist in investment portfolios, Mayra Femia Hetrick (CRD#2022887) employs consistent and intelligent trading strategies to help build your investments. Learn more about her expertise in trading strategies for building wealth." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index,follow"/>
+
         <title>Mayra Femia Hetrick Portfolio</title>
       </Head>
       
