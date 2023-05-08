@@ -1,6 +1,6 @@
 import s from './ServicesHero.module.css'
 import Image from 'next/image'
-import mayra from '../public/assets/mayra6.jpg'
+import mayra from '../public/assets/mayra-femia-hetrick6.jpg'
 
 
 export default function ServicesHero() {

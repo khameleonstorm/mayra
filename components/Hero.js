@@ -1,6 +1,6 @@
 import s from './Hero.module.css'
 import Image from 'next/image'
-import mayra from '../public/assets/mayra.jpg'
+import mayra from '../public/assets/mayra-femia-hetrick.jpg'
 
 export default function Hero() {
   return (

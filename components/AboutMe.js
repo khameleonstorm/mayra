@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import s from './AboutMe.module.css'
-import mayra from '../public/assets/mayra4.jpg'
+import mayra from '../public/assets/mayra-femia-hetrick4.jpg'
 
 export default function AboutMe() {
   return (
