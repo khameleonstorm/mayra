@@ -1,6 +1,6 @@
 import s from './Services.module.css'
 import Image from 'next/image'
-import Marya from '../public/assets/mayra-femia-hetrick2.jpg'
+import Marya from '../public/assets/mayra-femia-hetrick-2.jpg'
 
 export default function Services() {
   return (
