@@ -1,6 +1,7 @@
 import s from './Services.module.css'
 import Image from 'next/image'
 import Marya from '../public/assets/mayra-femia-hetrick-2.jpg'
+import Link from 'next/link'
 
 export default function Services() {
   return (
@@ -17,7 +18,7 @@ export default function Services() {
               Maximize your returns and minimize your risks with my years of experience and deep 
               understanding of market trends. Contact me today to secure your financial future.
             </h2>
-            <button className='heroBtn reverseBtn'>Contact Me!</button>
+            <Link href="./contact" className='heroBtn reverseBtn'>Contact Me!</Link>
           </div>
         </div>
 
