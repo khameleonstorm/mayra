@@ -18,7 +18,7 @@ export default function Services() {
               Maximize your returns and minimize your risks with my years of experience and deep 
               understanding of market trends. Contact me today to secure your financial future.
             </h2>
-            <Link href="./contact" className='heroBtn reverseBtn'>Contact Me!</Link>
+            <Link href="/contact" className='heroBtn reverseBtn'>Contact Me!</Link>
           </div>
         </div>
 

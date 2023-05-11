@@ -209,6 +209,10 @@ button{
 
 
 @media screen and (max-width: 600px){
+a {
+  display: inline;
+}
+
 .formCtn{
   place-items: start;
 }

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import s from './AboutMe.module.css'
 import mayra from '../public/assets/mayra-femia-hetrick4.jpg'
+import Link from 'next/link'
 
 export default function AboutMe() {
   return (
@@ -12,7 +13,7 @@ export default function AboutMe() {
           I&apos;m simply a tool you can use to unlock the potential you already
            have inside you. Success doesn&apos;t come from the outside, but from within.              
         </h2>
-        <button className='heroBtn'>Contact Me!</button>
+        <Link href="/contact" className='heroBtn'>Contact Me!</Link>
       </div>
       <div className={s.right}>
         <Image src={mayra} alt="Mayra Femia Hetrick" width={500}/>
