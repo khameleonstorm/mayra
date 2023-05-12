@@ -17,10 +17,12 @@ export default function ContactForm() {
     setLoading(true);
 
     if (!fullName || !email || !phoneNumber || !message) {
-      return setError('All fields are required');
+      setError('All fields are required');
+      setLoading(false);
+      return;
     }
 
-    const res = await fetch('https://www.mayrafemia.com/api/contact', {
+    const res = await fetch('/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
