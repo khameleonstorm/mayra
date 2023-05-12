@@ -17,8 +17,7 @@ export default function ContactForm() {
     setLoading(true);
 
     if (!fullName || !email || !phoneNumber || !message) {
-      setError('All fields are required');
-      return;
+      return setError('All fields are required');
     }
 
     const res = await fetch('/api/contact', {

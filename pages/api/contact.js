@@ -12,10 +12,11 @@ let transporter = nodemailer.createTransport({
   auth: {
     user: `help@mayrafemia.com`,
     pass: `3099545689`
-  }
+  },
+  connectionTimeout: 5000,
 });
 
-function welcomeMail(){
+function contactMailer(){
   // setup email data
   let mailOptions = {
     from: `help@mayrafemia.com`,
@@ -61,7 +62,7 @@ function welcomeMail(){
 
 
     try {
-      welcomeMail()
+      contactMailer()
       res.status(200).json({ message: 'Message sent successfully!' });
     } catch (error) {
       res.status(500).json({ message: 'Error sending message.' });
