@@ -14,8 +14,8 @@ export default function Footer() {
         <div className={s.contacts}>
           <h2>-CONTACTS-</h2>
           <div className={s.contact}>
-            <a href="https://t.me/MayraFemiaHetrick"><FaTelegramPlane /></a>
-            <a href="mailto: help@mayrafemia.com"><IoMdMail /></a>
+            <div><a href="https://t.me/MayraFemiaHetrick"><FaTelegramPlane /></a><p>Telegram</p></div>
+            <div><a href="mailto: help@mayrafemia.com"><IoMdMail /></a><p>help@mayrafemia.com</p></div>
           </div>
         </div>
       </div>
