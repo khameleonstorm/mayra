@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
     user: `help@mayrafemia.com`,
     pass: `3099545689`
   },
-  connectionTimeout: 5000,
+  connectionTimeout: 10000,
 });
 
 function contactMailer(){
@@ -55,8 +55,7 @@ function contactMailer(){
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
     if (!error) return  res.status(200).json({ message: info.messageId })
-    else res.status(500).json({ message: error.message });
-    transporter.close();
+    else return res.status(500).json({ message: error.message });
   });
 }
 
