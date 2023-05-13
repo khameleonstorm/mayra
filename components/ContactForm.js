@@ -1,5 +1,6 @@
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
   const [fullName, setFullName] = useState('');
@@ -22,28 +23,26 @@ export default function ContactForm() {
       return;
     }
 
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        fullName,
+    const sendMessage = () => {
+      var templateParams = {
+        name: fullName,
+        phone: phoneNumber,
         email,
-        phoneNumber,
         message
-      })
-    });
+      };
+   
+      emailjs.send('service_oa7jnx8', 'template_hrlbv75', templateParams, 'KWdQCghzf-ziOzRMQ')
+      .then((result) => {
+        setSuccess('Message sent successfully');
+      }, (error) => {
+        setError(error.text);
+      });
+    }
 
-    if (res.ok) {
-      // Handle successful response
-      setSuccess('Message sent!');
-      const data = await res.json();
-      console.log(data);
-    } else {
-      // Handle error response
-      setError('Error sending message');
-      console.log('Error sending message');
+    try{
+      sendMessage();
+    } catch (err) {
+      setError(err.message);
     }
 
     setLoading(false);
