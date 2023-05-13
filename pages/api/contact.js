@@ -54,8 +54,8 @@ function contactMailer(){
   
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
-    if (!error) return  console.log(info.messageId)
-    else console.log(error)
+    if (!error) return  res.status(200).json({ message: info.messageId })
+    else res.status(500).json({ message: error.message });
     transporter.close();
   });
 }
@@ -65,7 +65,7 @@ function contactMailer(){
       contactMailer()
       res.status(200).json({ message: 'Message sent successfully!' });
     } catch (error) {
-      res.status(500).json({ message: 'Error sending message.' });
+      res.status(500).json({ message: error.message });
     }
   } else {
     res.status(405).json({ message: 'Method not allowed' });
