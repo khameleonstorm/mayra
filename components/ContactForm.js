@@ -38,7 +38,8 @@ export default function ContactForm() {
     if (res.ok) {
       // Handle successful response
       setSuccess('Message sent!');
-      console.log(res);
+      const data = await res.json();
+      console.log(data);
     } else {
       // Handle error response
       setError('Error sending message');
