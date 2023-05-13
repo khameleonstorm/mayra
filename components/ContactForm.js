@@ -34,6 +34,7 @@ export default function ContactForm() {
       emailjs.send('service_oa7jnx8', 'template_hrlbv75', templateParams, 'KWdQCghzf-ziOzRMQ')
       .then((result) => {
         setSuccess('Message sent successfully');
+        setLoading(false);
       }, (error) => {
         setError(error.text);
       });
@@ -45,7 +46,6 @@ export default function ContactForm() {
       setError(err.message);
     }
 
-    setLoading(false);
     setEmail('');
     setFullName('');
     setPhoneNumber('');
