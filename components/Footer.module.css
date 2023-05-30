@@ -31,15 +31,21 @@
 
 .contact{
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   color: rgb(255, 241, 255);
 }
 
-.contact div{
+.contactWrp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contactWrp div{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .contact div p{
@@ -71,6 +77,15 @@
   color: #f4dcff;
 }
 
+.copyright{
+  text-align: center;
+  color: #ffffff88;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 20px 0;
+  border-top: .5px solid rgba(255, 255, 255, 0.07);
+}
+
 
 
 @media screen and (max-width: 900px) {
@@ -81,4 +96,13 @@
 .wrp h1{
   font-size: 1.3rem;
 }
+
+.contact{
+  flex-direction: column-reverse;
+}
+
+.contactWrp{
+  flex-direction: column-reverse;
+}
+
 }
