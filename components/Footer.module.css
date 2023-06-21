@@ -37,7 +37,6 @@
 
 .contactWrp{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   gap: 20px;
 }
@@ -97,12 +96,19 @@
   font-size: 1.3rem;
 }
 
+.contacts h2{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
 .contact{
   flex-direction: column-reverse;
 }
 
 .contactWrp{
-  flex-direction: column-reverse;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
 
 }
